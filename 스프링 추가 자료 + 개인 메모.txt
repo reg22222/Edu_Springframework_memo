@@ -1,0 +1,23 @@
+*면접 물어본 것들(기술적인 문제)*
+String, StringBuilder, StringBuffer의 차이
+웹 페이지 이동 어떻게 하나
+등등..
+
+DAO : 데이터베이스 연동 로직을 제공
+VO : DB에서 검색한 데이터가 제공
+
+StringBuffer getRequestURL() : 웹 주소 전체를 가져옴
+String getRequestURI() : /myweb/login.jsp까지 가져옴
+String getContextPath() : /myweb만 얻어옴
+jeonggeun.spring.myweb중 myweb이 ContextPath임
+
+*MVC2 Controller의 역할*
+1.사용자의 요청을 받음 (web.xml에서)
+2.요청을 분석
+3.요청을 수행할 Action객체를 실행
+4.가야할 페이지명을 받음
+5. 해당 페이지로 포워딩
+
+*책*
+Gof의 디자인 패턴 -> 1순위
+자바 알고리즘 책(아무거나)
